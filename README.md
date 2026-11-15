@@ -1,5 +1,7 @@
 # AgroCarbon: Farm Carbon Footprint Calculator
 
+[![Tests](https://github.com/saphal-sharma/agrocarbon/actions/workflows/tests.yml/badge.svg)](https://github.com/saphal-sharma/agrocarbon/actions/workflows/tests.yml)
+
 **▶ Live app: [saphal-sharma.github.io/agrocarbon](https://saphal-sharma.github.io/agrocarbon/)**: try the calculator in your browser.
 
 > **Question:** Where do a farm's greenhouse-gas emissions come from, and which change cuts them most?  
@@ -51,6 +53,11 @@ N₂O is converted to CO₂-equivalent with GWP100 = 273 (IPCC AR6). Every facto
 In both examples, emissions linked to nitrogen fertilizer (N₂O, urea CO₂ and fertilizer manufacture) dominate the footprint. Fuel savings from reduced tillage cut emissions by only 1–4%. This matches my M.Sc. thesis research on Vietnamese vegetable farms, where fertilizer accounted for about 82–98% of estimated farm emissions.
 
 **These inputs are round illustrative numbers, not measured farm data.** The manufacturing and electricity factors in particular are placeholders to replace with real values.
+
+## How I checked this
+
+- Unit tests compare direct and indirect N₂O, urea CO₂, lime and diesel emissions with hand calculations from the IPCC formulas.
+- The browser calculator uses the same IPCC default factors as the Python code.
 
 ## Run it
 
