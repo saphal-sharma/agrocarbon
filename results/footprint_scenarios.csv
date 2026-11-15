@@ -1,0 +1,11 @@
+farm,scenario,N2O direct,N2O indirect,Urea CO2,Lime CO2,N manufacture,Diesel,Electricity,total_kg_co2e_ha,kg_co2e_per_t,n_related_share_pct,change_vs_baseline_pct
+Example arable farm (Germany),Baseline,815.1,304.8,0.0,220.0,570.0,268.0,20.0,2197.9,274.7,76.9,0.0
+Example arable farm (Germany),N rate -20%,652.1,243.9,0.0,220.0,456.0,268.0,20.0,1860.0,232.5,72.7,-15.4
+Example arable farm (Germany),Urea replaced by other N,815.1,304.8,0.0,220.0,570.0,268.0,20.0,2197.9,274.7,76.9,0.0
+Example arable farm (Germany),Reduced tillage (diesel -30%),815.1,304.8,0.0,220.0,570.0,187.6,20.0,2117.5,264.7,79.8,-3.7
+Example arable farm (Germany),Renewable electricity,815.1,304.8,0.0,220.0,570.0,268.0,0.0,2177.9,272.2,77.6,-0.9
+Example vegetable plot (Vietnam),Baseline,1072.5,401.1,239.1,0.0,1500.0,160.8,240.0,3613.5,120.5,88.9,0.0
+Example vegetable plot (Vietnam),N rate -20%,858.0,320.9,191.3,0.0,1200.0,160.8,240.0,2971.0,99.0,86.5,-17.8
+Example vegetable plot (Vietnam),Urea replaced by other N,1072.5,401.1,0.0,0.0,1500.0,160.8,240.0,3374.4,112.5,88.1,-6.6
+Example vegetable plot (Vietnam),Reduced tillage (diesel -30%),1072.5,401.1,239.1,0.0,1500.0,112.6,240.0,3565.3,118.8,90.1,-1.3
+Example vegetable plot (Vietnam),Renewable electricity,1072.5,401.1,239.1,0.0,1500.0,160.8,0.0,3373.5,112.5,95.2,-6.6

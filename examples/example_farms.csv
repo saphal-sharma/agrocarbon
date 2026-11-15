@@ -1,0 +1,6 @@
+# EXAMPLE INPUTS FOR DEMONSTRATION ONLY. Round illustrative values, not measured farm data.
+# grid_ef_kg_kwh and n_manufacture_ef are placeholders: replace them with your national grid
+# factor and your fertilizer supplier's (or an LCA database's) footprint per kg N.
+farm,crop,yield_t_ha,n_urea_kg_ha,n_other_kg_ha,lime_t_ha,diesel_l_ha,electricity_kwh_ha,grid_ef_kg_kwh,n_manufacture_ef
+Example arable farm (Germany),Winter wheat,8.0,0,190,0.5,100,50,0.4,3.0
+Example vegetable plot (Vietnam),Cabbage,30.0,150,100,0.0,60,400,0.6,6.0
