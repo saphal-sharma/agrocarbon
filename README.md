@@ -67,4 +67,4 @@ python -m pytest tests                   # checks the IPCC equations against han
 - IPCC (2019). *2019 Refinement to the 2006 IPCC Guidelines*, Volume 4, Chapter 11.
 - IPCC (2021). *Climate Change 2021: The Physical Science Basis* (AR6 WG1), Table 7.15.
 
-**Author:** Saphal Sharma, M.Sc. Sustainable International Agriculture, University of Göttingen
+**Author:** Saphal Sharma, M.Sc. student, Sustainable International Agriculture, University of Göttingen
