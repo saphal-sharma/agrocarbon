@@ -48,6 +48,8 @@ h1 { font-family: var(--font-display); font-weight: 600; font-size: 30px; margin
 header p { margin: 0; color: var(--muted); max-width: 70ch; }
 main { max-width: 1180px; margin: 0 auto; padding: 12px 20px 40px; display: grid; grid-template-columns: minmax(280px, 380px) 1fr; gap: 20px; align-items: start; }
 @media (max-width: 820px) { main { grid-template-columns: 1fr; } }
+main > *, .stack > *, .panel { min-width: 0; }
+.tablewrap { overflow-x: auto; }
 .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px; }
 .panel h2 { font-family: var(--font-display); font-size: 18px; font-weight: 600; margin: 0 0 12px; }
 .panel h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 16px 0 8px; font-weight: 600; }
