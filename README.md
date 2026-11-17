@@ -8,7 +8,7 @@
 > **Answer:** Nitrogen fertilizer dominates (77% of the footprint for the wheat example, 89% for cabbage). Cutting the N rate by 20% saves 15–18%; reduced tillage saves only 1–4%.  
 > **Method:** IPCC Tier 1 methods in Python with unit tests checked against hand calculations, plus a browser calculator. Example inputs are illustrative, not measured farm data.
 
-<img src="docs/preview.jpg" alt="AgroCarbon calculator" width="720">
+<img src="docs/demo.gif" alt="Animated demo of the AgroCarbon calculator: cutting nitrogen and diesel, then switching to the cabbage example" width="640">
 
 
 AgroCarbon estimates a farm's greenhouse-gas emissions per hectare and per tonne of product, and compares sustainability interventions. It follows the **IPCC Tier 1** methods used in national inventories and many farm carbon tools.
